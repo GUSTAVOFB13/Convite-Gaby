@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Convite Gaby</title>
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <button onclick="tocarMusica()">🎵 Ativar Música</button>
+
+<audio id="musica" loop>
+  <source src="https://www.youtube.com/watch?v=VZ1EUDRZZjE&t=935s" type="audio/mp3">
+</audio>
+    
+
+    <div class="container">
+
+        <img src="Sua Foto.jpg.jpeg" alt="Gaby">
+
+        <h1>✨ Aniversário da Gaby ✨ </h1>
+
+        <p>Você está convidado para uma noite especial</p>
+          <p><strong>📅 Data:</strong> 13 de Junho</p>
+          <p><strong>⏰ Hora:</strong> 19:30</p>
+          <p><strong>📍 Local:</strong> Casa do Marques</p>
+
+          <div id="countdown"></div>
+
+  <button onclick="confirmar()">Confirmar Presença</button>
+  <p id="msg"></p>
+
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+        
+    </div>
+</body>
+</html>
